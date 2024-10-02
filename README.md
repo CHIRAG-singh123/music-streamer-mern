@@ -2,17 +2,20 @@ Sccreen shots
 
 
 Home Page: -
-![image](https://github.com/user-attachments/assets/b8c793d1-fced-45c1-8ffb-9233a62d3a90)
+![image](https://github.com/user-attachments/assets/d334a109-ee94-49dc-afd8-066be7dc8108)
+
  
 
 
 Signp Page: -
-![image](https://github.com/user-attachments/assets/21b60a50-704f-4904-a90e-31619202ca44)
+![image](https://github.com/user-attachments/assets/ab64b0af-b658-4bf1-8a95-e2217c69d6d2)
+
  
 
 
 Login Page: - 
-![image](https://github.com/user-attachments/assets/74e69a45-0bb5-4515-9177-a159b2d35699)
+![image](https://github.com/user-attachments/assets/9b38a86d-27ab-41bc-8fe5-6b38772e8cf0)
+
 
 
 
