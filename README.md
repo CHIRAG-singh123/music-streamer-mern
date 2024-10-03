@@ -102,7 +102,7 @@ MAIL_EMAIL=your email from which you want to send email.....@gmail.com
 
 MAIL_SECRET= https://aws.amazon.com/secrets-manager/
 
-#if you have enabled 2 step verification then generate app password in google accound
+#if you have enabled 2 step verification then generate app password in google account [ https://myaccount.google.com/apppasswords ]
 
 HOW TO START
 
