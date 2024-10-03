@@ -67,13 +67,20 @@ const Forgot = (params) => {
     e.preventDefault();
 
     if (state?.form?.password?.length >= 8) {
-      if (state?.form?.password === state?.form?.rePassword) {
+      if (
+        state?.form?.password === state?.form?.rePassword &&
+        /[A-Z]/.test(state?.form?.password) &&
+        /[a-z]/.test(state?.form?.password) &&
+        /[!@#$%^&*(),.?":{}|<>]/.test(state?.form?.password)
+      ) {
         forgotApi();
       } else {
-        errorHandle("Password And Re Password Must Equal");
+        errorHandle(
+          "Password must contain at least 8 characters, including uppercase, lowercase, and special characters. Passwords must match."
+        );
       }
     } else {
-      errorHandle("Enter Password And Password Length Must Contain 8");
+      errorHandle("Password must be at least 8 characters long");
     }
   };
 
