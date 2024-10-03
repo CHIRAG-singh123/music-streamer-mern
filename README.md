@@ -102,6 +102,8 @@ MAIL_EMAIL=your email from which you want to send email.....@gmail.com
 
 MAIL_SECRET= https://aws.amazon.com/secrets-manager/
 
+#if you have enabled 2 step verification then generate app password in google accound
+
 HOW TO START
 
 1.> clone reposetory command : git clone https://github.com/CHIRAG-singh123/music-streaming-mern.git
