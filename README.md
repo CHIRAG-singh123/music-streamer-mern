@@ -140,5 +140,5 @@ MAIL_SECRET=YourMailSecretFrom https://aws.amazon.com/secrets-manager/
 ---
 
 Follow these steps to get Rhythm Realm up and running locally. Make sure to configure the environment variables properly to ensure full functionality.
-```
+
 
