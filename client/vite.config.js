@@ -9,6 +9,7 @@ export default defineConfig({
   },
   server: {
     host: "localhost",
+    port: 5173, // Specify your preferred port
     proxy: {
       "/api": {
         target: "http://localhost:5000/api/",
@@ -16,5 +17,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
     },
+  },
+  build: {
+    outDir: "dist", // Specify output directory for production
+    sourcemap: true, // Enable sourcemaps in production
   },
 });
