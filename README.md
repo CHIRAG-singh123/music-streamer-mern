@@ -57,8 +57,6 @@ Rhythm Realm is a feature-packed digital music streaming platform designed to of
 
 
 
-Here is the code block for your `README.md` that you can copy and paste:
-
 ```markdown
 ## Generate ENV Files
 
